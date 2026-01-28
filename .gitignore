@@ -1,0 +1,83 @@
+# -------------------------
+# Python cache & bytecode
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# -------------------------
+# Virtual environments
+# -------------------------
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# -------------------------
+# Environment variables
+# -------------------------
+.env
+.env.*
+!.env.example
+
+# -------------------------
+# Django / Flask / FastAPI
+# -------------------------
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+instance/
+.media/
+staticfiles/
+
+# -------------------------
+# Pytest / coverage
+# -------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# -------------------------
+# Jupyter
+# -------------------------
+.ipynb_checkpoints/
+
+# -------------------------
+# Build / packaging
+# -------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# -------------------------
+# IDEs & editors
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Logs & temp
+# -------------------------
+*.log
+*.tmp
+
+# -------------------------
+# Node (if frontend exists)
+# -------------------------
+node_modules/
